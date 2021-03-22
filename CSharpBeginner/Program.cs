@@ -6,6 +6,8 @@ namespace CSharpBeginner
     {
         static void Main(string[] args)
         {
+
+            // if statements (branches)
             int a = 5;
             int b = 6;
             int c = 4;
@@ -47,12 +49,35 @@ namespace CSharpBeginner
 
 
 
+            // while loop
             int counter = 0;
             while (counter < 10)
             {
                 Console.WriteLine($"The counter is {counter}");
                 counter++;
             }
+
+
+
+            // for loops
+            for (int index = 0; index < 10; index++)
+            {
+                Console.WriteLine($"The index is {index}");
+            }
+
+
+
+            // combine the branches and loops
+
+            int sum = 0;
+            for (int i = 1; i <= 20; i++)
+            {
+                if (i % 3 == 0)
+                {
+                    sum = sum + i;
+                }
+            }
+            Console.WriteLine($"The sum is {sum}");
         }
     }
 }
