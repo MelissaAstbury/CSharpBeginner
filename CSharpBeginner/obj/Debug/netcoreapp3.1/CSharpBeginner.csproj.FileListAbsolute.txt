@@ -1,0 +1,12 @@
+/Users/melissaastbury/Documents/Study/CSharp/CSharpBeginner/CSharpBeginner/bin/Debug/netcoreapp3.1/CSharpBeginner.deps.json
+/Users/melissaastbury/Documents/Study/CSharp/CSharpBeginner/CSharpBeginner/bin/Debug/netcoreapp3.1/CSharpBeginner.runtimeconfig.json
+/Users/melissaastbury/Documents/Study/CSharp/CSharpBeginner/CSharpBeginner/bin/Debug/netcoreapp3.1/CSharpBeginner.runtimeconfig.dev.json
+/Users/melissaastbury/Documents/Study/CSharp/CSharpBeginner/CSharpBeginner/bin/Debug/netcoreapp3.1/CSharpBeginner.dll
+/Users/melissaastbury/Documents/Study/CSharp/CSharpBeginner/CSharpBeginner/bin/Debug/netcoreapp3.1/CSharpBeginner.pdb
+/Users/melissaastbury/Documents/Study/CSharp/CSharpBeginner/CSharpBeginner/obj/Debug/netcoreapp3.1/CSharpBeginner.csprojAssemblyReference.cache
+/Users/melissaastbury/Documents/Study/CSharp/CSharpBeginner/CSharpBeginner/obj/Debug/netcoreapp3.1/CSharpBeginner.AssemblyInfoInputs.cache
+/Users/melissaastbury/Documents/Study/CSharp/CSharpBeginner/CSharpBeginner/obj/Debug/netcoreapp3.1/CSharpBeginner.AssemblyInfo.cs
+/Users/melissaastbury/Documents/Study/CSharp/CSharpBeginner/CSharpBeginner/obj/Debug/netcoreapp3.1/CSharpBeginner.csproj.CoreCompileInputs.cache
+/Users/melissaastbury/Documents/Study/CSharp/CSharpBeginner/CSharpBeginner/obj/Debug/netcoreapp3.1/CSharpBeginner.dll
+/Users/melissaastbury/Documents/Study/CSharp/CSharpBeginner/CSharpBeginner/obj/Debug/netcoreapp3.1/CSharpBeginner.pdb
+/Users/melissaastbury/Documents/Study/CSharp/CSharpBeginner/CSharpBeginner/obj/Debug/netcoreapp3.1/CSharpBeginner.genruntimeconfig.cache
