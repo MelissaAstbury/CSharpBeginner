@@ -94,6 +94,59 @@ namespace CSharpBeginner
                 Console.WriteLine($"Hello, {name.ToUpper()}");
             }
             Console.WriteLine(names[1]);
+
+
+
+
+
+            // Finding the Index
+            var certainName = names.IndexOf("Mike");
+            if (certainName == -1)
+            {
+                Console.WriteLine($"When an item is not found the index is {certainName}");
+            }
+            else
+            {
+                Console.WriteLine($"The name {names[certainName]} is at index {certainName}");
+            }
+
+
+
+            // Fibonacci sequence
+
+            var fibonacciNumbers = new List<int> { 1, 1 };
+
+            // This will grab the last one currently in the sequence
+            var previous = fibonacciNumbers[fibonacciNumbers.Count - 1];
+            // This will grab the second the last in the sequence
+            var previous2 = fibonacciNumbers[fibonacciNumbers.Count - 2];
+
+            // Add them together and add this to the original sequence
+            fibonacciNumbers.Add(previous + previous2);
+
+            foreach (var item in fibonacciNumbers)
+                Console.WriteLine(item);
+
+
+
+
+            // Challenge - Get the first 20 in sequence
+            var fibonacciNumbers2 = new List<int> { 1, 1 };
+
+            while (fibonacciNumbers2.Count < 20)
+            {
+                // This will grab the last one currently in the sequence
+                var previous3 = fibonacciNumbers2[fibonacciNumbers2.Count - 1];
+                // This will grab the second the last in the sequence
+                var previous4 = fibonacciNumbers2[fibonacciNumbers2.Count - 2];
+
+                // Add them together and add this to the original sequence
+                fibonacciNumbers2.Add(previous3 + previous4);
+            }
+
+                foreach (var i in fibonacciNumbers2)
+                Console.WriteLine(i);
+
         }
     }
 }
