@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CSharpBeginner
 {
@@ -7,7 +8,7 @@ namespace CSharpBeginner
         static void Main(string[] args)
         {
 
-            // if statements (branches)
+            // If statements (Branches)
             int a = 5;
             int b = 6;
             int c = 4;
@@ -49,7 +50,7 @@ namespace CSharpBeginner
 
 
 
-            // while loop
+            // While Loop
             int counter = 0;
             while (counter < 10)
             {
@@ -59,7 +60,7 @@ namespace CSharpBeginner
 
 
 
-            // for loops
+            // For Loops
             for (int index = 0; index < 10; index++)
             {
                 Console.WriteLine($"The index is {index}");
@@ -67,7 +68,7 @@ namespace CSharpBeginner
 
 
 
-            // combine the branches and loops
+            // Combine the Branches and Loops
 
             int sum = 0;
             for (int i = 1; i <= 20; i++)
@@ -78,6 +79,21 @@ namespace CSharpBeginner
                 }
             }
             Console.WriteLine($"The sum is {sum}");
+
+
+
+            // Lists and Collections
+            var names = new List<string> { "<name>", "Mel", "Andy" };
+
+            names.Add("Deno");
+            names.Add("Mike");
+            names.Remove("Mel");
+
+            foreach (var name in names)
+            {
+                Console.WriteLine($"Hello, {name.ToUpper()}");
+            }
+            Console.WriteLine(names[1]);
         }
     }
 }
